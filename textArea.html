@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restricted Textarea</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Textarea Restringida</h1>
+            <div>
+                <p>
+                    Bonito componente de textarea para delimitar el numero de 
+                    caracteres que puede ingresar el usuario.
+                </p>
+                <p> maximo numero de caracteres: 250</p>
+            </div>
+        </section>
+
+        <div class="area">
+            <textarea name="recuadro" id="recuadro" maxlength="250" rows="6" cols="50"></textarea>
+            <p id="p-length"><span id="contador">0</span>/250</p>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
