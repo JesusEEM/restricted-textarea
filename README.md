@@ -17,3 +17,6 @@ El reto consiste en registrar las telas que preciona un usuario y mostrar en pan
 Usando manipulación del DOM, se puede registrar el evento de **keydown** cuando el usuario preciona la tecla y contabilizar el numero de veces que fue precionado.
 
 
+![textarea-readmap-project](https://github.com/user-attachments/assets/30ece5d5-449f-45c1-a772-ccd60a7a1740)
+
+
